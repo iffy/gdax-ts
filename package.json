@@ -1,0 +1,16 @@
+{
+  "name": "ts-gdax",
+  "version": "0.1.0",
+  "author": "Matt",
+  "bugs": "https://github.com/iffy/ts-gdax/issues",
+  "main": "dist/main.js",
+  "scripts": {
+    "prepublishOnly": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "gdax": "^0.4.2"
+  }
+}
