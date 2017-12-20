@@ -8,9 +8,13 @@
     "prepublishOnly": "tsc"
   },
   "devDependencies": {
+    "@types/request-promise-native": "^1.0.10",
+    "@types/ws": "^3.2.1",
     "typescript": "^2.6.2"
   },
   "dependencies": {
-    "gdax": "^0.4.2"
+    "gdax": "^0.4.2",
+    "request-promise-native": "^1.0.5",
+    "ws": "^3.3.3"
   }
 }
